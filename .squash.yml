@@ -1,0 +1,5 @@
+deployments:
+  nginx:
+    kubernetes_build_image: nginx
+    deployment_type: kubernetes
+    use_kubernetes_registry: true
